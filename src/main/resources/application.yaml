@@ -2,7 +2,7 @@ spring:
   application:
     name: Person-service
   datasource:
-    url: jdbc:postgresql://localhost:5432/personbd
+    url: jdbc:postgresql://postgres:5432/personbd
     username: dianauser
     password: pass
     driver-class-name: org.postgresql.Driver
